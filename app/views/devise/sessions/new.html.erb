@@ -1,0 +1,20 @@
+<h2>¡Ya casi! Ahora accede</h2>
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.email_field :email, 
+                      autofocus: true, 
+                      autocomplete: "email", 
+                      style: 'display:none',
+                      value: "conekta@conekta.com" %>
+  </div>
+
+  <div class="field">
+    <%= f.label "Contraseña" %><br />
+    <%= f.password_field :password, autocomplete: "off" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Accede" %>
+  </div>
+<% end %>

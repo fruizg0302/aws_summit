@@ -39,7 +39,7 @@ C:::::C       CCCCCCo::::o     o::::o  n::::n    n::::ne:::::::e           k::::
 
     hi qcbhfogsño sg voqsacgtwbhsqv + sz búasfc rs fchoqwcbsg eis ihwzwnoghs dofo rsgqwtfof sz asbgoxs.    
     
-    eis zo tisfno hs oqcadoñs!
+    eis zo tisfno hs oqcadoñs!"
   end
 
 end

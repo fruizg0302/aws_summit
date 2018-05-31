@@ -10,9 +10,27 @@
   </head>
 
   <body>
-  <nav class="navbar navbar-light style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="#">Conekta</a>
-  </nav>
-    <%= yield %>
+    <div class="row">
+      <div class="container-fluid">
+        <nav class="navbar navbar-light" style="background-color: #141635;">
+          <a class="navbar-brand" href="#">
+            <%= image_tag 'conekta-logo-blanco.png', alt: 'description', size: "150x27" %>
+            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          </a>
+        </nav>
+      </div>
+    </div>  
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-6">
+          <%= yield %>
+        </div>
+        <div class="col">
+        </div>
+      </div>  
+    </div>    
   </body>
 </html>

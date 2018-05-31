@@ -30,4 +30,22 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    models: 
+      award: "Award"
+    attributes:
+      award:
+        contact_email: ""
+        answer_4: ""
+    errors:
+      models:
+        user:
+          attributes:
+            source_system_id:
+              blank: "llena por favor %{attribute}" 
+              taken: " Id User already provisioned"
+            entity_type:
+              inclusion: "should be Customer or User"
+            target_system:
+              inclusion: "should be LOCAL or OPENAM"
+        

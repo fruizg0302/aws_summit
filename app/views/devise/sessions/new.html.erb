@@ -1,20 +1,31 @@
-<h2>¡Ya casi! Ahora accede</h2>
+</br>
+<div class="col"></div>
+<div class="col-6">
+  <div class="row">
+    <div class="container">
+      <h2>¡Ya casi! Ahora accede</h2>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.email_field :email, 
-                      autofocus: true, 
-                      autocomplete: "email", 
-                      style: 'display:none',
-                      value: "conekta@conekta.com" %>
-  </div>
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="field">
+          <%= f.email_field :email, 
+                            autofocus: true, 
+                            autocomplete: "email", 
+                            style: 'display:none',
+                            value: "conekta@conekta.com" %>
+        </div>
 
-  <div class="field">
-    <%= f.label "Contraseña" %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
-  </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">Contraseña</span>
+        </div>
+        <%= f.password_field :password, autocomplete: "off" %>
+      </div>
 
-  <div class="actions">
-    <%= f.submit "Accede" %>
+        <div>
+          <%= f.submit "Accede", :class => 'btn btn-primary' %>
+        </div>
+      <% end %>
+    </div>
   </div>
-<% end %>
+</div>
+<div class="col"></div>

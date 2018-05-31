@@ -1,6 +1,10 @@
 class AwardsController < ApplicationController
-  before_action :set_award, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+  before_action :set_award, only: [:edit]
 
+  def thanks
+    sign_out @user
+  end
   # GET /awards
   # GET /awards.json
   def index
@@ -28,7 +32,7 @@ class AwardsController < ApplicationController
 
     respond_to do |format|
       if @award.save
-        format.html { redirect_to @award, notice: 'Award was successfully created.' }
+        format.html { redirect_to '/awards/thanks', notice: 'Award was successfully created.' }
         format.json { render :show, status: :created, location: @award }
       else
         format.html { render :new }

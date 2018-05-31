@@ -12,33 +12,64 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :contact_email %>
+    <%= form.label "Déjanos un email para contactarte :)" %><br />
     <%= form.text_field :contact_email %>
   </div>
-
+  <br />
   <div class="field">
-    <%= form.label :answer_1 %>
-    <%= form.text_field :answer_1 %>
+    <%= form.label "a) ¿Cuál de los siguientes no es un lenguaje compilado?" %><br />
+      <%= form.radio_button :answer_1, 'C++', :checked => true %> 
+      <%= label :answer_1, 'C++' %>
+      <%= form.radio_button :answer_1, 'Ruby' %>
+      <%= label :answer_1, 'Ruby' %>
+      <%= form.radio_button :answer_1, 'Java' %>
+      <%= label :answer_1, 'Java' %>
+      <%= form.radio_button :answer_1, 'C#' %>
+      <%= label :answer_1, 'C#' %>
   </div>
+  <br />
 
   <div class="field">
-    <%= form.label :answer_2 %>
-    <%= form.text_field :answer_2 %>
+    <%= form.label "b) ¿Cuál es el algoritmo de ordamiento menos eficiente?" %><br />
+      <%= form.radio_button :answer_2, 'Merge Sort', :checked => true %> 
+      <%= label :answer_2, 'Merge Sort' %>
+      <%= form.radio_button :answer_2, 'Quick Sort' %>
+      <%= label :answer_2, 'Quick Sort' %>
+      <%= form.radio_button :answer_2, 'Shell Sort' %>
+      <%= label :answer_2, 'Shell Sort' %>
+      <%= form.radio_button :answer_2, 'Bubble Sort' %>
+      <%= label :answer_2, 'Bubble Sort' %>
   </div>
+  <br />
 
   <div class="field">
-    <%= form.label :answer_3 %>
-    <%= form.text_field :answer_3 %>
+    <%= form.label "c) El negocio de Conekta es..." %><br />
+      <%= form.radio_button :answer_3, 'Vender Bitcoins', :checked => true %> 
+      <%= label :answer_3, 'Vender Bitcoins' %>
+      <%= form.radio_button :answer_3, 'Hacer Software a la medida' %>
+      <%= label :answer_3, 'Hacer Software a la medida' %>
+      <%= form.radio_button :answer_3, 'Procesar pagos' %>
+      <%= label :answer_3, 'Procesar Pagos' %>
+      <%= form.radio_button :answer_3, 'Prestar Dinero' %>
+      <%= label :answer_3, 'Prestar Dinero' %>
   </div>
+  <br />
 
   <div class="field">
-    <%= form.label :answer_4 %>
+    <%= form.label "d) El nombre de algún miembro del equipo que vino al summit" %> <br/>
     <%= form.text_field :answer_4 %>
   </div>
 
   <div class="field">
-    <%= form.label :answer_5 %>
-    <%= form.text_field :answer_5 %>
+    <%= form.label "e) ¿Cuál no es una estructura de datos?" %>
+    <%= form.radio_button :answer_5, 'Arbol', :checked => true %> 
+    <%= label :answer_5, 'Arbol' %>
+    <%= form.radio_button :answer_5, 'Lista' %>
+    <%= label :answer_5, 'Lista' %>
+    <%= form.radio_button :answer_5, 'Arreglo' %>
+    <%= label :answer_5, 'Arreglo' %>
+    <%= form.radio_button :answer_5, 'Clase' %>
+    <%= label :answer_5, 'Clase' %>
   </div>
 
   <div class="actions">

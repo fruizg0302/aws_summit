@@ -39,13 +39,13 @@ en:
         answer_4: ""
     errors:
       models:
-        user:
+        award:
           attributes:
             source_system_id:
               blank: "llena por favor %{attribute}" 
               taken: " Id User already provisioned"
-            entity_type:
-              inclusion: "should be Customer or User"
+            answer_4:
+              inclusion: "Debe ser el nombre de alguno de los integrantes"
             target_system:
               inclusion: "should be LOCAL or OPENAM"
         

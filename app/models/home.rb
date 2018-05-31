@@ -23,23 +23,23 @@ C:::::C       CCCCCCo::::o     o::::o  n::::n    n::::ne:::::::e           k::::
     CCC::::::::::::C oo:::::::::::oo   n::::n    n::::n  ee:::::::::::::e k::::::k   k:::::k         tt:::::::::::tt a::::::::::aa:::a
        CCCCCCCCCCCCC   ooooooooooo     nnnnnn    nnnnnn    eeeeeeeeeeeeee kkkkkkkk    kkkkkkk          ttttttttttt    aaaaaaaaaa  aaaa                                 
     
-    Hola! ¿Has escuchado del cifrado César?
+    !Hola! ¿Has escuchado hablar del cifrado César?
 
     Encontré un mensaje y al principio pensé que estaba cifrado usando el algoritmo
     más común y simple utilizando el sexto número primo.
     
-    Pero resulta que no, creo que está utilizando un número diferente para la rotación. Y estoy muy seguro
-    que es un número que se encuentra en el siguiente rango:
+    Pero resulta que no, creo que está utilizando un número diferente para la rotación. 
+    Y estoy muy seguro que es un número que se encuentra en el siguiente rango:
     
     [sexto número primo - 5, sexto número primo + 5]
     
     ¿Me ayudas a descifrarlo? Te prometo que habrá una sorpresa.
     
-    ufobrwcgc! zog wbghfiqqwcbsg dofo sz gwuiwsbhs dogc  zog cphwsbsg oqqsrwsbrc o giaawh.qcbsyhoas.wc/dfwnsg
+    ¡ufobrwcgc! zog wbghfiqqwcbsg dofo sz gwuiwsbhs dogc  zog cphwsbsg oqqsrwsbrc o giaawh.qcbsyhoas.wc/okofrg
 
-    hi qcbhfogsño sg voqsacgtwbhsqv + sz biasfc rs fchoqwcbsg eis ihwzwnoghs dofo rsgqwtfof sz asbgoxs
+    hi qcbhfogsño sg voqsacgtwbhsqv + sz búasfc rs fchoqwcbsg eis ihwzwnoghs dofo rsgqwtfof sz asbgoxs.    
     
-    eié zo tisfno hs oqcadoñs!".chomp
+    eis zo tisfno hs oqcadoñs!
   end
 
 end

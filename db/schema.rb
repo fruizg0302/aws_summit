@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_30_173026) do
+ActiveRecord::Schema.define(version: 2018_05_31_022347) do
+
+  create_table "awards", force: :cascade do |t|
+    t.string "contact_email"
+    t.string "answer_1"
+    t.string "answer_2"
+    t.string "answer_3"
+    t.string "answer_4"
+    t.string "answer_5"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
